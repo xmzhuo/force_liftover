@@ -5,6 +5,9 @@ Then the original and target position and alleleic will be add to INFO as prior_
 In the finaly step, the remaining INFO and FORMAT will be added back to the vcf. </br>
 However, please use cautiously as the annotation in the vcf won't be changed to reflect the new position or allelice information.
 
+## How to run:
+bash force_liftover.sh <input_vcf> <chain_file> <target_reference> <output_vcf>
+
 # Environment: 
 Ubuntu 18.04 or newer
 
